@@ -10,10 +10,6 @@ window.addEventListener('load',() => {
   let locationIcon= document.querySelector('.location-icon')
   let temperatureSection=document.querySelector('.temperature');
   let degree=document.querySelector('.temperature span');
-
-
-  
-
   if(navigator.geolocation){
   navigator.geolocation.getCurrentPosition
   (position => {
